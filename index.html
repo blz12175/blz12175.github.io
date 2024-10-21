@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <div class="menu container">
+        <a href="#" class="logo">logo</a>
+        <input type="checkbox" id="menu"/>
+        <label for="menu">
+            <img src="imagenes/menu.png" class="menu-icono" alt="menu">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <div>
+            <ul>
+                <li class="submenu">
+                    <img src="imagenes/car.svg" id="img-carrito" alt="carrito">
+                    <div id="carrito">
+                        <table id="lista-carrito">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <a href="#" id="Vaciar-carrito" class="btn-2">Vaciar carrito</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-content container">
+        <div class="header-img">
+            <img src="imagenes/right.png" alt="">
+        </div>
+        <div class="header-txt">
+            <h1>Ofertas especiales</h1>
+            <p>Estrena las mejores prendas</p>
+            <a href="#" class="btn-1">Información</a>
+        </div>
+    </div>
+</header>
+
+<!-- Sección de Ofertas -->
+<section class="ofert-container">
+    <div class="ofert-1">
+        <div class="ofert-img">
+            <img src="imagenes/f1.png" alt="">
+        </div>
+        <div class="ofert-txt">
+            <h3>Mochila negra moderna</h3>
+            <p>Mochila negra de diseño elegante y resistente, con múltiples compartimentos y cremalleras metálicas. Ideal para uso diario, trabajo o viajes.</p>
+            <p class="Precio">$1200</p>
+            <a href="#" class="Agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+        </div>
+    </div>
+
+    <div class="ofert-1">
+        <div class="ofert-img">
+            <img src="imagenes/f2.png" alt="">
+        </div>
+        <div class="ofert-txt">
+            <h3>Tennis Deportivo</h3>
+            <p>Zapatillas deportivas blancas, con diseño moderno y cómodo, posiblemente para actividades deportivas o casuales.</p>
+            <p class="Precio">$3000</p>
+            <a href="#" class="Agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+        </div>
+    </div>
+
+    <div class="ofert-1">
+        <div class="ofert-img">
+            <img src="imagenes/f3.png" alt="">
+        </div>
+        <div class="ofert-txt">
+            <h3>Bolso de mujer</h3>
+            <p>Bolso para mujer de color beige, diseño elegante y funcional, ideal para uso casual o formal.</p>
+            <p class="Precio">$700</p>
+            <a href="#" class="Agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+        </div>
+    </div>
+</section>
+
+<!-- Sección de Productos -->
+<main class="Products container" id="lista-1">
+    <h2></h2>
+    <div class="product-content">
+        <div class="Product">
+            <img src="imagenes/1.png" alt="">
+            <div class="Product-txt">
+                <h3>Camisa Negra</h3>
+                <p>Camisa formal de color negro, de corte recto, ideal para vestir de manera elegante o profesional. Hecha con materiales de calidad premium.</p>
+                <p class="Precio">$300</p>
+                <a href="#" class="Agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="Product">
+            <img src="imagenes/2.png" alt="">
+            <div class="Product-txt">
+                <h3>Chaqueta Negra</h3>
+                <p>Chaqueta negra de estilo técnico, diseñada para ser resistente y proteger contra las condiciones climáticas. Perfecta para actividades al aire libre.</p>
+                <p class="Precio">$900</p>
+                <a href="#" class="Agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="Product">
+            <img src="imagenes/3.png" alt="">
+            <div class="Product-txt">
+                <h3>Sudadera negra</h3>
+                <p>Sudadera negra de estilo casual con capucha, diseñada para ofrecer comodidad y protección en climas fríos. Ideal para actividades al aire libre o uso diario.</p>
+                <p class="Precio">$800</p>
+                <a href="#" class="Agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="Product">
+            <img src="imagenes/4.png" alt="">
+            <div class="Product-txt">
+                <h3>Camisa Negra</h3>
+                <p>Camisa de color negra con un diseño formal, de manga larga, ideal para ocasiones elegantes o de oficina. Hecha con materiales de calidad premium.</p>
+                <p class="Precio">$300</p>
+                <a href="#" class="Agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="Product">
+            <img src="imagenes/5.png" alt="">
+            <div class="Product-txt">
+                <h3>Camisa negra elegante</h3>
+                <p>Camisa negra de estilo elegante, con un corte ajustado y botones frontales. Perfecta para eventos formales o uso profesional.</p>
+                <p class="Precio">$300</p>
+                <a href="#" class="Agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="Product">
+            <img src="imagenes/6.png" alt="">
+            <div class="Product-txt">
+                <h3>Abrigo de mujer</h3>
+                <p>Abrigo oscuro con un diseño cómodo y cálido, ideal para climas fríos. Tiene una capucha y parece estar forrado en su interior para mayor confort.</p>
+                <p class="Precio">$300</p>
+                <a href="#" class="Agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Sección de Blog -->
+<section class="blog container">
+    <div class="blog-1">
+        <img src="imagenes/b1.jpg" alt="">
+        <h3>Los mejores outfits</h3>
+        <p>Claves para dominar el buen vestir.</p>
+    </div>
+
+    <div class="blog-2">
+        <img src="imagenes/b2.jpg" alt="">
+        <h3>El arte del buen vestir</h3>
+        <p>Consejos sobre cómo elegir el calzado perfecto y combinarlo con camisas y pantalones para lograr un look impecable.</p>
+    </div>
+
+    <div class="blog-3">
+        <img src="imagenes/b3.jpg" alt="">
+        <h3>Las mejores camisas del mundo</h3>
+        <p>Descubre qué camisas te harán lucir impecable en cada ocasión.</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>&copy; 2024 Proyecto de la Escuela.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
